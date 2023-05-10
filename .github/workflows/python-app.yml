@@ -1,5 +1,5 @@
 
-name: Python App CI/CD
+name: test
 
 on:
   push:
@@ -24,4 +24,4 @@ jobs:
         
     - name: Run tests
       run: |
-       test
+       python test
