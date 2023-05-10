@@ -24,4 +24,4 @@ jobs:
         
     - name: Run tests
       run: |
-       python test
+       python 'test.py'
